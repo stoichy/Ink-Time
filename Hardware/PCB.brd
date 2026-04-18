@@ -32,7 +32,7 @@
 <grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -45,28 +45,28 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="4" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="4" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
@@ -2159,7 +2159,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BQ25180YBGR" x="3.937" y="-6.604" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-BQ25180YBGR" x="3.937" y="-6.604" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ25180YBGR?qs=doiCPypUmgEWjAK%252BJAX6Tw%3D%3D" x="3.937" y="-6.604" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="3.937" y="-7.62" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="4.064" y="-7.366" size="0.254" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="-1.143" y="-6.604" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="R9" library="InkTime_v5" package="ERA-1AEB3401C_0201" value="10k" x="2.032" y="-7.112" smashed="yes" rot="R180">
@@ -2174,7 +2174,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RT6160AWSC" x="-17.272" y="-11.938" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="835-RT6160AWSC" x="-17.272" y="-11.938" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Richtek/RT6160AWSC?qs=amGC7iS6iy%2FLd9PSoixZXQ%3D%3D" x="-17.272" y="-11.938" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-17.145" y="-13.335" size="0.8128" layer="25" align="center"/>
+<attribute name="NAME" x="-16.256" y="-12.446" size="0.3048" layer="25" align="center"/>
 <attribute name="VALUE" x="-17.272" y="-11.938" size="1.27" layer="27" align="center"/>
 </element>
 <element name="R4" library="InkTime_v5" package="ERA-1AEB3401C_0201" value="0" x="-13.97" y="-10.541" smashed="yes" rot="R90">
@@ -2184,13 +2184,11 @@ design rules under a new name.</description>
 <attribute name="RESISTANCE" value="0" x="-16.129" y="-9.906" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP_3V3" library="InkTime_v5" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="11.43" y="15.875" smashed="yes">
-<attribute name="NAME" x="10.43" y="16.925" size="0.6096" layer="25"/>
 <attribute name="POPULARITY" value="2" x="11.43" y="15.875" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="11.43" y="15.875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="10.668" y="14.859" size="0.0254" layer="27"/>
 </element>
 <element name="TP_VREG" library="InkTime_v5" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="-1.524" y="-10.541" smashed="yes">
-<attribute name="NAME" x="-2.524" y="-11.904" size="0.4064" layer="25"/>
 <attribute name="POPULARITY" value="2" x="-1.524" y="-10.541" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="-1.524" y="-10.541" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-2.286" y="-11.557" size="0.0254" layer="27"/>
@@ -2202,13 +2200,11 @@ design rules under a new name.</description>
 <attribute name="RESISTANCE" value="3k3" x="-19.431" y="-14.732" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP_SCL" library="InkTime_v5" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="-14.8032" y="-16.2238" smashed="yes">
-<attribute name="NAME" x="-16.0572" y="-15.8088" size="0.6096" layer="25"/>
 <attribute name="POPULARITY" value="2" x="-14.8032" y="-16.2238" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="-14.8032" y="-18.7638" size="1" layer="37"/>
 <attribute name="VALUE" x="-15.5652" y="-17.2398" size="0.0254" layer="27"/>
 </element>
 <element name="TP_SDA" library="InkTime_v5" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="-21.59" y="-8.89" smashed="yes">
-<attribute name="NAME" x="-22.59" y="-7.84" size="0.6096" layer="25"/>
 <attribute name="POPULARITY" value="2" x="-21.59" y="-8.89" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="-21.59" y="-11.43" size="1" layer="37"/>
 <attribute name="VALUE" x="-22.352" y="-9.906" size="0.0254" layer="27"/>
@@ -2222,54 +2218,48 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BMA423" x="-4.572" y="-1.397" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="262-BMA423" x="-4.572" y="-1.397" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMA423?qs=HXFqYaX1Q2xC%252BSgeGoX3mg%3D%3D" x="-4.572" y="-1.397" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-4.572" y="0.004" size="0.8128" layer="25" align="center"/>
+<attribute name="NAME" x="-4.572" y="-1.393" size="0.3048" layer="25" align="center"/>
 <attribute name="VALUE" x="-4.572" y="-1.647" size="1.27" layer="27" align="center"/>
 </element>
 <element name="R3" library="InkTime_v5" package="ERA-1AEB3401C_0201" value="0" x="-5.08" y="-3.175" smashed="yes">
 <attribute name="RESISTANCE" value="0" x="-5.08" y="-3.175" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP_SWO" library="InkTime_v5" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="14.224" y="-8.509" smashed="yes">
-<attribute name="NAME" x="13.478" y="-7.459" size="0.4064" layer="25"/>
 <attribute name="POPULARITY" value="2" x="14.224" y="-8.509" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="14.224" y="-11.049" size="1" layer="37"/>
 <attribute name="VALUE" x="13.462" y="-9.525" size="0.0254" layer="27"/>
 </element>
 <element name="TP_SWDIO" library="InkTime_v5" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="20.955" y="9.144" smashed="yes">
-<attribute name="NAME" x="18.685" y="7.654" size="0.4064" layer="25"/>
 <attribute name="POPULARITY" value="2" x="20.955" y="9.144" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="20.955" y="6.604" size="1" layer="37"/>
 <attribute name="VALUE" x="20.193" y="8.128" size="0.0254" layer="27"/>
 </element>
 <element name="TP_SWDCLK" library="InkTime_v5" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="20.440775" y="12.8395" smashed="yes">
-<attribute name="NAME" x="19.059775" y="11.4765" size="0.3048" layer="25"/>
 <attribute name="POPULARITY" value="2" x="20.440775" y="12.8395" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="20.440775" y="10.2995" size="1" layer="37"/>
 <attribute name="VALUE" x="19.678775" y="11.8235" size="0.0254" layer="27"/>
 </element>
 <element name="TP_RESET" library="InkTime_v5" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="8.001" y="16.2238" smashed="yes">
-<attribute name="NAME" x="7.001" y="14.7338" size="0.3048" layer="25"/>
 <attribute name="POPULARITY" value="2" x="8.001" y="16.2238" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="8.001" y="13.6838" size="1" layer="37"/>
 <attribute name="VALUE" x="7.239" y="15.2078" size="0.0254" layer="27"/>
 </element>
 <element name="TP_3.3V" library="InkTime_v5" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="14.859" y="16.2238" smashed="yes">
-<attribute name="NAME" x="13.986" y="14.9878" size="0.4064" layer="25"/>
 <attribute name="POPULARITY" value="2" x="14.859" y="16.2238" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="14.859" y="13.6838" size="1" layer="37"/>
 <attribute name="VALUE" x="14.097" y="15.2078" size="0.0254" layer="27"/>
 </element>
 <element name="TP_GND" library="InkTime_v5" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="19.939" y="-14.097" smashed="yes">
-<attribute name="NAME" x="18.939" y="-15.587" size="0.3048" layer="25"/>
 <attribute name="POPULARITY" value="2" x="19.939" y="-14.097" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="19.939" y="-16.637" size="1" layer="37"/>
 <attribute name="VALUE" x="19.177" y="-15.113" size="0.0254" layer="27"/>
 </element>
 <element name="U1" library="InkTime_v5" package="NORDIC_NRF_4_AQFN50P700X700X85_HS-74N" value="NRF52840_QF" x="8.0708" y="-1.744025" smashed="yes">
-<attribute name="NAME" x="7.0948" y="0.858975" size="1" layer="25"/>
+<attribute name="NAME" x="7.0948" y="0.858975" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="5.5708" y="-6.744025" size="1" layer="27"/>
 </element>
 <element name="X2" library="InkTime_v5" package="NORDIC_NRF_1_XTAL_3215_N" value="32.768kHz" x="1.5635" y="1.524" smashed="yes" rot="R90">
-<attribute name="NAME" x="2.6765" y="0.983" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="1.938" y="1.7875" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="4.1635" y="-1.576" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="ANT1" library="InkTime_v5" package="2450AT18B100E_ANTC3216X140N" value="2450AT18B100E" x="20.1425" y="0.3997" smashed="yes" rot="R180">
@@ -2281,11 +2271,11 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="2450AT18B100E" x="20.1425" y="0.3997" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="609-2450AT18B100E" x="20.1425" y="0.3997" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Johanson-Technology/2450AT18B100E?qs=yCnrNFeXz%252Bh5MFsFIXGZGA%3D%3D" x="20.1425" y="0.3997" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.1425" y="1.2887" size="0.6096" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="20.1425" y="0.3997" size="0.4064" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="20.1425" y="0.3997" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="X1" library="InkTime_v5" package="NORDIC_NRF_BT-XTAL_2016_N" value="32MHz" x="13.97" y="2.667" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.357" y="4.342" size="0.4064" layer="25" rot="R180"/>
+<attribute name="NAME" x="14.865" y="2.945" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="16.87" y="-0.033" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="J2" library="InkTime_v5" package="TC2030-IDC_TC2030IDC" value="TC2030-IDC" x="15.748" y="10.668" smashed="yes" rot="R180">
@@ -2297,7 +2287,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TC2030-IDC" x="15.748" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="15.748" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="15.748" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="18.669" y="10.226" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="18.669" y="10.226" size="0.8128" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="14.798" y="10.668" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="D4" library="InkTime_v5" package="ESP32_C6_LIBRARY_5_SOD3716X135N" value="MBR0530" x="-18.542" y="12.065" smashed="yes">
@@ -2306,7 +2296,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Schottky 30 V 500mA Surface Mount SOD-123 " x="-18.542" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-18.542" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="MBR0530" x="-18.542" y="12.065" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-18.542" y="12.065" size="0.8128" layer="25" align="center"/>
+<attribute name="NAME" x="-21.717" y="12.065" size="0.4064" layer="25" align="center"/>
 <attribute name="PACKAGE" value="SOD-123-2 ON Semiconductor" x="-18.542" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-18.542" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=179458&amp;manufacturer=ON Semiconductor&amp;part_name=MBR0530&amp;search_term=None" x="-18.542" y="12.065" size="1.778" layer="27" display="off"/>
@@ -2319,7 +2309,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Schottky 30 V 500mA Surface Mount SOD-123 " x="-18.542" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-18.542" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="MBR0530" x="-18.542" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-18.542" y="10.414" size="0.8128" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="-21.717" y="10.414" size="0.4064" layer="25" rot="R180" align="center"/>
 <attribute name="PACKAGE" value="SOD-123-2 ON Semiconductor" x="-18.542" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="-18.542" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=179458&amp;manufacturer=ON Semiconductor&amp;part_name=MBR0530&amp;search_term=None" x="-18.542" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2332,7 +2322,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Diode Schottky 30 V 500mA Surface Mount SOD-123 " x="-18.542" y="8.636" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-18.542" y="8.636" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="MBR0530" x="-18.542" y="8.636" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-18.542" y="8.636" size="0.8128" layer="25" align="center"/>
+<attribute name="NAME" x="-21.717" y="8.763" size="0.4064" layer="25" align="center"/>
 <attribute name="PACKAGE" value="SOD-123-2 ON Semiconductor" x="-18.542" y="8.636" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-18.542" y="8.636" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=179458&amp;manufacturer=ON Semiconductor&amp;part_name=MBR0530&amp;search_term=None" x="-18.542" y="8.636" size="1.778" layer="27" display="off"/>
@@ -2345,7 +2335,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Si1308EDL-T1-GE3 N-channel MOSFET Transistor, 1.5 A, 30 V, 3-Pin SC-70 | Siliconix / Vishay SI1308EDL-T1-GE3 " x="-14.097" y="13.716" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Vishay Siliconix" x="-14.097" y="13.716" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="SI1308EDL-T1-GE3" x="-14.097" y="13.716" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-12.827" y="13.716" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="-14.224" y="13.716" size="0.4064" layer="25" rot="R180" align="center"/>
 <attribute name="PACKAGE" value="SOT-323 Vishay Semiconductor" x="-14.097" y="13.716" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="-14.097" y="13.716" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=274603&amp;manufacturer=Vishay Siliconix&amp;part_name=SI1308EDL-T1-GE3&amp;search_term=None" x="-14.097" y="13.716" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2359,7 +2349,7 @@ design rules under a new name.</description>
 <element name="R_TYPE_SEL" library="InkTime_v5" package="ERA-1AEB3401C_0201" value="2.2" x="-7.747" y="14.097" smashed="yes" rot="R180">
 </element>
 <element name="SJ1" library="InkTime_v5" package="ESP32_C6_LIBRARY_7_JUMPER_SJ" value="" x="-9.1847" y="14.097" smashed="yes" rot="R90">
-<attribute name="NAME" x="-10.3277" y="12.446" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="-8.382" y="16.4693" size="0.6096" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="3" x="-9.1847" y="14.097" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-9.1847" y="14.4971" size="0.02" layer="27" rot="R90"/>
 </element>
@@ -2378,7 +2368,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="503480-2400" x="-13.843" y="0.127" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="538-503480-2400" x="-13.843" y="0.127" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Molex/503480-2400?qs=OAhjpuo3Vu7efIoxFh9AOw%3D%3D" x="-13.843" y="0.127" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-13.843" y="0.127" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="-14.097" y="0.127" size="0.8128" layer="25" align="center"/>
 <attribute name="VALUE" x="-13.843" y="0.127" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="U3" library="InkTime_v5" package="ESP32_C6_LIBRARY_SON50P200X200X80-9N" value="MAX17048G+T10" x="7.366" y="-11.049" smashed="yes" rot="R270">
@@ -2387,7 +2377,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" 3µA 1-Cell/2-Cell Fuel Gauge with ModelGauge " x="7.366" y="-11.049" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Analog Devices" x="7.366" y="-11.049" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="MAX17048G+T10" x="7.366" y="-11.049" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="5.827" y="-10.636" size="0.6096" layer="25" rot="R270"/>
+<attribute name="NAME" x="8.477" y="-11.191" size="0.3048" layer="25"/>
 <attribute name="PACKAGE" value="TDFN-8 Maxim" x="7.366" y="-11.049" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="7.366" y="-11.049" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=329239&amp;manufacturer=Analog Devices&amp;part_name=MAX17048G+T10&amp;search_term=None" x="7.366" y="-11.049" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2395,13 +2385,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="5.984" y="-9.239" size="1.27" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="TP_BAT_GND" library="InkTime_v5" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="16.637" y="-15.7802" smashed="yes">
-<attribute name="NAME" x="15.129" y="-17.2702" size="0.4064" layer="25"/>
 <attribute name="POPULARITY" value="2" x="16.637" y="-15.7802" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="16.637" y="-15.7802" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="15.875" y="-16.7962" size="0.0254" layer="27"/>
 </element>
 <element name="TP_VBAT" library="InkTime_v5" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="10.7588" y="-11.00816875" smashed="yes">
-<attribute name="NAME" x="9.7588" y="-9.95816875" size="0.6096" layer="25"/>
 <attribute name="POPULARITY" value="2" x="10.7588" y="-11.00816875" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="10.7588" y="-11.00816875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="9.9968" y="-12.02416875" size="0.0254" layer="27"/>
@@ -2412,7 +2400,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="                                                                                                    " x="0.2254" y="16.6448" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="kinghelm" x="0.2254" y="16.6448" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="KH-TYPE-C-16P" x="0.2254" y="16.6448" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="0.2404" y="16.2648" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="0.7484" y="15.5028" size="1.016" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="None" x="0.2254" y="16.6448" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="0.2254" y="16.6448" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/KH-TYPE-C-16P/Kinghelm/view-part/?ref=snap" x="0.2254" y="16.6448" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2428,7 +2416,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" 17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="-0.508" y="8.763" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="STMicroelectronics" x="-0.508" y="8.763" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="USBLC6-2SC6Y" x="-0.508" y="8.763" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-0.508" y="8.763" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="-1.143" y="8.89" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="PACKAGE" value="SOT-23-6 STMicroelectronics" x="-0.508" y="8.763" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="-0.508" y="8.763" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=snap" x="-0.508" y="8.763" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2478,19 +2466,17 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-4.826" y="-4.572" size="1.27" layer="27" align="center"/>
 </element>
 <element name="TP_OP" library="InkTime_v5" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="-4.318" y="-15.9304" smashed="yes">
-<attribute name="NAME" x="-5.318" y="-14.8804" size="0.6096" layer="25"/>
 <attribute name="POPULARITY" value="2" x="-4.318" y="-15.9304" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="-4.318" y="-15.9304" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-5.08" y="-16.9464" size="0.0254" layer="27"/>
 </element>
 <element name="TP_ON" library="InkTime_v5" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="-6.858" y="-15.9316" smashed="yes">
-<attribute name="NAME" x="-7.858" y="-14.8816" size="0.6096" layer="25"/>
 <attribute name="POPULARITY" value="2" x="-6.858" y="-15.9316" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="-6.858" y="-15.9316" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-7.62" y="-16.9476" size="0.0254" layer="27"/>
 </element>
 <element name="C39" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="10uF" x="5.334" y="-8.636" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.334" y="-9.636" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="5.572" y="-8.493" size="0.254" layer="25" rot="R180"/>
 <attribute name="VALUE" x="7.334" y="-9.636" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C38" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="1uF" x="6.096" y="-7.366" smashed="yes">
@@ -2499,7 +2485,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="6.096" y="-7.366" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Murata" x="6.096" y="-7.366" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="6.096" y="-7.366" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="5.546" y="-6.946" size="0.5" layer="25"/>
+<attribute name="NAME" x="5.546" y="-7.835" size="0.254" layer="25"/>
 <attribute name="PACKAGE" value="0201 Murata" x="6.096" y="-7.366" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="6.096" y="-7.366" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="6.096" y="-7.366" size="1.778" layer="27" display="off"/>
@@ -2511,14 +2497,14 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="3.556" y="-8.763" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Murata" x="3.556" y="-8.763" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="3.556" y="-8.763" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="3.006" y="-8.343" size="0.5" layer="25"/>
+<attribute name="NAME" x="3.387" y="-8.978" size="0.1" layer="25"/>
 <attribute name="PACKAGE" value="0201 Murata" x="3.556" y="-8.763" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="3.556" y="-8.763" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="3.556" y="-8.763" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="3.006" y="-9.183" size="0.5" layer="27" align="top-left"/>
 </element>
 <element name="C24" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="10uF" x="-17.78" y="-14.732" smashed="yes" rot="R90">
-<attribute name="NAME" x="-18.78" y="-15.732" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="-17.542" y="-14.589" size="0.254" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-15.78" y="-15.732" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C23" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="0.1uF" x="-17.2126" y="-14.351" smashed="yes" rot="R90">
@@ -2527,118 +2513,118 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="-17.2126" y="-14.351" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata" x="-17.2126" y="-14.351" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="-17.2126" y="-14.351" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-17.6326" y="-14.901" size="0.5" layer="25" rot="R90"/>
+<attribute name="NAME" x="-16.849" y="-14.4576" size="0.1" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="0201 Murata" x="-17.2126" y="-14.351" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="-17.2126" y="-14.351" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="-17.2126" y="-14.351" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-16.7926" y="-14.901" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="C25" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="22uF" x="-20.066" y="-11.43" smashed="yes">
-<attribute name="NAME" x="-21.066" y="-10.43" size="1.27" layer="25"/>
+<attribute name="NAME" x="-21.828" y="-11.446" size="0.254" layer="25"/>
 <attribute name="VALUE" x="-21.066" y="-13.43" size="1.27" layer="27"/>
 </element>
 <element name="C33" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="22uF" x="-18.034" y="-8.509" smashed="yes" rot="R90">
-<attribute name="NAME" x="-19.034" y="-9.509" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="-19.542" y="-8.017" size="0.3048" layer="25"/>
 <attribute name="VALUE" x="-16.034" y="-9.509" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C19" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="100nF" x="-5.334" y="0.635" smashed="yes">
-<attribute name="NAME" x="-6.334" y="1.635" size="1.27" layer="25"/>
+<attribute name="NAME" x="-4.048" y="0.746" size="0.254" layer="25"/>
 <attribute name="VALUE" x="-6.334" y="-1.365" size="1.27" layer="27"/>
 </element>
 <element name="C18" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="12pF" x="-0.254" y="0.889" smashed="yes">
-<attribute name="NAME" x="-2.254" y="1.889" size="1.27" layer="25"/>
+<attribute name="NAME" x="-0.603" y="1.381" size="0.3048" layer="25"/>
 <attribute name="VALUE" x="-2.254" y="-1.111" size="1.27" layer="27"/>
 </element>
 <element name="C17" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="12pF" x="-0.508" y="2.286" smashed="yes">
-<attribute name="NAME" x="-2.508" y="3.286" size="1.27" layer="25"/>
+<attribute name="NAME" x="-0.857" y="2.905" size="0.3048" layer="25"/>
 <attribute name="VALUE" x="-2.508" y="0.286" size="1.27" layer="27"/>
 </element>
 <element name="C5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="100nF" x="3.175" y="3.556" smashed="yes">
-<attribute name="NAME" x="1.175" y="4.556" size="1.27" layer="25"/>
+<attribute name="NAME" x="1.81" y="3.667" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="1.175" y="1.556" size="1.27" layer="27"/>
 </element>
 <element name="C6" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="4.7µF" x="1.016" y="-1.651" smashed="yes">
-<attribute name="NAME" x="-0.984" y="-0.651" size="1.27" layer="25"/>
+<attribute name="NAME" x="-0.095" y="-1.921" size="0.3048" layer="25"/>
 <attribute name="VALUE" x="-0.984" y="-3.651" size="1.27" layer="27"/>
 </element>
 <element name="C20" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="4.7µF" x="1.016" y="-3.556" smashed="yes">
-<attribute name="NAME" x="-0.984" y="-2.556" size="1.27" layer="25"/>
+<attribute name="NAME" x="1.175" y="-3.953" size="0.1" layer="25"/>
 <attribute name="VALUE" x="-0.984" y="-5.556" size="1.27" layer="27"/>
 </element>
 <element name="C21" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="4.7µF" x="3.175" y="-4.064" smashed="yes" rot="R90">
-<attribute name="NAME" x="2.175" y="-6.064" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="3.27" y="-4.048" size="0.1" layer="25" rot="R180"/>
 <attribute name="VALUE" x="5.175" y="-6.064" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="100nF" x="10.033" y="-7.493" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.033" y="-9.493" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="10.89" y="-7.731" size="0.3048" layer="25" rot="R180"/>
 <attribute name="VALUE" x="12.033" y="-9.493" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C8" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="100nF" x="12.573" y="-7.493" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.573" y="-9.493" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="12.287" y="-7.35" size="0.3048" layer="25" rot="R180"/>
 <attribute name="VALUE" x="14.573" y="-9.493" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="820pF" x="14.351" y="-4.445" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.351" y="-5.445" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="13.811" y="-4.302" size="0.3048" layer="25" rot="R180"/>
 <attribute name="VALUE" x="16.351" y="-2.445" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="1pF" x="12.319" y="-1.651" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.319" y="-3.651" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="12.795" y="-0.619" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="14.319" y="-3.651" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="1pF" x="15.875" y="-2.667" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.875" y="-4.667" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="15.97" y="-1.635" size="0.3048" layer="25" rot="R180"/>
 <attribute name="VALUE" x="17.875" y="-4.667" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C22" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="N.C" x="17.526" y="-2.794" smashed="yes" rot="R90">
-<attribute name="NAME" x="16.526" y="-4.794" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="17.875" y="-1.762" size="0.3048" layer="25" rot="R180"/>
 <attribute name="VALUE" x="19.526" y="-4.794" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="12pF" x="16.764" y="1.778" smashed="yes">
-<attribute name="NAME" x="14.764" y="2.778" size="1.27" layer="25"/>
+<attribute name="NAME" x="15.78" y="2.016" size="0.3048" layer="25"/>
 <attribute name="VALUE" x="14.764" y="-0.222" size="1.27" layer="27"/>
 </element>
 <element name="C2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="12pF" x="16.891" y="3.429" smashed="yes">
-<attribute name="NAME" x="14.891" y="4.429" size="1.27" layer="25"/>
+<attribute name="NAME" x="16.669" y="3.921" size="0.3048" layer="25"/>
 <attribute name="VALUE" x="14.891" y="1.429" size="1.27" layer="27"/>
 </element>
 <element name="C11" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="100pF" x="10.668" y="2.794" smashed="yes">
-<attribute name="NAME" x="8.668" y="3.794" size="1.27" layer="25"/>
+<attribute name="NAME" x="10.573" y="3.159" size="0.254" layer="25"/>
 <attribute name="VALUE" x="8.668" y="0.794" size="1.27" layer="27"/>
 </element>
 <element name="C10" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="N.C." x="12.065" y="3.683" smashed="yes">
-<attribute name="NAME" x="10.065" y="4.683" size="1.27" layer="25"/>
+<attribute name="NAME" x="11.589" y="3.159" size="0.254" layer="25"/>
 <attribute name="VALUE" x="10.065" y="1.683" size="1.27" layer="27"/>
 </element>
 <element name="C12" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="100nF" x="9.271" y="2.413" smashed="yes">
-<attribute name="NAME" x="7.271" y="3.413" size="1.27" layer="25"/>
+<attribute name="NAME" x="9.049" y="2.016" size="0.1" layer="25"/>
 <attribute name="VALUE" x="7.271" y="0.413" size="1.27" layer="27"/>
 </element>
 <element name="C13" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="N.C." x="7.493" y="2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.493" y="0.54" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="7.588" y="2.048" size="0.1" layer="25" rot="R180"/>
 <attribute name="VALUE" x="9.493" y="0.54" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C16" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="47nF" x="6.985" y="3.429" smashed="yes">
-<attribute name="NAME" x="4.985" y="4.429" size="1.27" layer="25"/>
+<attribute name="NAME" x="7.271" y="3.032" size="0.1" layer="25"/>
 <attribute name="VALUE" x="4.985" y="1.429" size="1.27" layer="27"/>
 </element>
 <element name="C15" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="1.0µF" x="8.255" y="3.175" smashed="yes">
-<attribute name="NAME" x="6.255" y="4.175" size="1.27" layer="25"/>
+<attribute name="NAME" x="8.287" y="2.778" size="0.1" layer="25"/>
 <attribute name="VALUE" x="6.255" y="1.175" size="1.27" layer="27"/>
 </element>
 <element name="C14" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0201_L" value="4.7µF" x="4.318" y="4.699" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.318" y="2.699" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="4.54" y="5.858" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="6.318" y="2.699" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="L2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_2_RESC0402_L" value="10µH" x="5.588" y="3.429" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.588" y="2.429" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="4.588" y="1.159" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="7.588" y="2.429" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="L3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_2_RESC0402_L" value="15nH" x="5.588" y="4.953" smashed="yes">
-<attribute name="NAME" x="4.588" y="5.953" size="1.27" layer="25"/>
+<attribute name="NAME" x="5.35" y="5.699" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="4.588" y="2.953" size="1.27" layer="27"/>
 </element>
 <element name="L1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_2_RESC0402_L" value="3.9nH" x="14.224" y="-2.54" smashed="yes">
-<attribute name="NAME" x="13.224" y="-1.54" size="1.27" layer="25"/>
+<attribute name="NAME" x="13.859" y="-1.921" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="13.224" y="-4.54" size="1.27" layer="27"/>
 </element>
 <element name="L7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="MLP2016SR47MT0S1_INDC2016X100N" value="MLP2016SR47MT0S1" x="-11.176" y="-9.271" smashed="yes" rot="R90">
@@ -2650,11 +2636,11 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_NAME" value="TDK" x="-20.066" y="-23.241" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="FTC252012SR47MBCA" x="-20.066" y="-23.241" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="-20.066" y="-23.241" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-8.636" y="-9.271" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="-11.176" y="-9.271" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="-14.986" y="-9.271" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="C1-EP-DR" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="10uF" x="-3.556" y="6.223" smashed="yes">
-<attribute name="NAME" x="-4.556" y="7.223" size="1.27" layer="25"/>
+<attribute name="NAME" x="-3.54" y="5.191" size="0.254" layer="25"/>
 <attribute name="VALUE" x="-4.556" y="4.223" size="1.27" layer="27"/>
 </element>
 <element name="L5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="ESP32_C6_LIBRARY_2_IND_4828-WE-TPC_WRE" value="68uH" x="-8.255" y="9.652" smashed="yes" rot="R90">
@@ -2666,47 +2652,47 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-11.43" y="6.6532" size="1.27" layer="27" ratio="6" rot="R90"/>
 </element>
 <element name="C2-EP-DR" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="4.7uF/25V" x="-16.637" y="14.859" smashed="yes" rot="R180">
-<attribute name="NAME" x="-15.637" y="13.859" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-16.907" y="15.764" size="0.3048" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-15.637" y="16.859" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="EPD_C2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="1uF/50V" x="-10.16" y="5.08" smashed="yes">
-<attribute name="NAME" x="-11.16" y="6.08" size="1.27" layer="25"/>
+<attribute name="NAME" x="-10.779" y="5.826" size="0.254" layer="25"/>
 <attribute name="VALUE" x="-11.16" y="3.08" size="1.27" layer="27"/>
 </element>
 <element name="EPD_C1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="1uF/50V" x="-10.16" y="3.302" smashed="yes">
-<attribute name="NAME" x="-11.16" y="4.302" size="1.27" layer="25"/>
+<attribute name="NAME" x="-11.033" y="2.397" size="0.254" layer="25"/>
 <attribute name="VALUE" x="-11.16" y="1.302" size="1.27" layer="27"/>
 </element>
 <element name="EPD_C5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="0.1uF/50V" x="-8.382" y="2.032" smashed="yes" rot="R180">
-<attribute name="NAME" x="-7.382" y="1.032" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-5.858" y="2.175" size="0.254" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-7.382" y="4.032" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="EPD_C6" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="1uF/50V" x="-8.509" y="1.016" smashed="yes" rot="R180">
-<attribute name="NAME" x="-7.509" y="0.016" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-5.985" y="1.159" size="0.254" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-7.509" y="3.016" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="EPD_C7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="1uF/50V" x="-8.509" y="0.127" smashed="yes" rot="R180">
-<attribute name="NAME" x="-7.509" y="-0.873" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-5.985" y="0.27" size="0.254" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-7.509" y="2.127" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="EPD_C8" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="1uF/50V" x="-8.509" y="-0.889" smashed="yes" rot="R180">
-<attribute name="NAME" x="-7.509" y="-1.889" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-6.112" y="-0.746" size="0.254" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-7.509" y="1.111" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="EPD_C9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="1uF/50V" x="-8.509" y="-1.905" smashed="yes" rot="R180">
-<attribute name="NAME" x="-7.509" y="-2.905" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-6.112" y="-1.762" size="0.254" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-7.509" y="0.095" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="EPD_C10" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="1uF/50V" x="-8.509" y="-2.921" smashed="yes" rot="R180">
-<attribute name="NAME" x="-7.509" y="-3.921" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-5.858" y="-2.778" size="0.254" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-7.509" y="-0.921" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="EPD_C11" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="1uF/50V" x="-8.509" y="-3.937" smashed="yes" rot="R180">
-<attribute name="NAME" x="-7.509" y="-4.937" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-5.858" y="-3.794" size="0.254" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-7.509" y="-1.937" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="EPD_C12" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="1uF/50V" x="-8.509" y="-4.953" smashed="yes" rot="R180">
-<attribute name="NAME" x="-7.509" y="-5.953" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-5.858" y="-4.81" size="0.254" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-7.509" y="-2.953" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C27" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="0.1uF" x="7.112" y="-13.6234" smashed="yes" rot="R90">
@@ -2715,7 +2701,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="7.112" y="-13.6234" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata" x="7.112" y="-13.6234" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="7.112" y="-13.6234" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="6.692" y="-14.1734" size="0.5" layer="25" rot="R90"/>
+<attribute name="NAME" x="8.2044" y="-13.628" size="0.254" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="0201 Murata" x="7.112" y="-13.6234" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="7.112" y="-13.6234" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="7.112" y="-13.6234" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2727,14 +2713,14 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="11.684" y="-10.922" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata" x="11.684" y="-10.922" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="11.684" y="-10.922" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="17.614" y="-11.472" size="0.5" layer="25" rot="R90"/>
+<attribute name="NAME" x="18.076" y="-10.707" size="0.1" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="0201 Murata" x="11.684" y="-10.922" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="11.684" y="-10.922" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="11.684" y="-10.922" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="18.454" y="-11.472" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="C43" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="NORDIC_NRF_3_RESC0402_L" value="4.7uF" x="16.256" y="-11.43" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.256" y="-12.43" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="16.621" y="-10.779" size="0.254" layer="25" rot="R180"/>
 <attribute name="VALUE" x="18.256" y="-12.43" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C30" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.584O6HvtRkqm6gSMynaQYg" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="1uF" x="-9.779" y="-12.065" smashed="yes" rot="R90">
@@ -2755,7 +2741,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="1.778" y="-12.446" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Murata" x="1.778" y="-12.446" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="1.778" y="-12.446" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="2.198" y="-11.896" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="2.117" y="-12.534" size="0.254" layer="25"/>
 <attribute name="PACKAGE" value="0201 Murata" x="1.778" y="-12.446" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="1.778" y="-12.446" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="1.778" y="-12.446" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2779,7 +2765,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="-3.302" y="-8.382" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata" x="-3.302" y="-8.382" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="-3.302" y="-8.382" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-3.722" y="-8.932" size="0.5" layer="25" rot="R90"/>
+<attribute name="NAME" x="-2.244" y="-8.294" size="0.254" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="0201 Murata" x="-3.302" y="-8.382" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="-3.302" y="-8.382" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="-3.302" y="-8.382" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2791,7 +2777,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="-3.683" y="-5.461" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Murata" x="-3.683" y="-5.461" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="-3.683" y="-5.461" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-4.233" y="-5.041" size="0.5" layer="25"/>
+<attribute name="NAME" x="-3.09" y="-5.549" size="0.254" layer="25"/>
 <attribute name="PACKAGE" value="0201 Murata" x="-3.683" y="-5.461" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-3.683" y="-5.461" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="-3.683" y="-5.461" size="1.778" layer="27" display="off"/>
@@ -3369,10 +3355,10 @@ design rules under a new name.</description>
 <contactref element="IC9" pad="B3"/>
 <contactref element="L7" pad="1"/>
 <wire x1="-16.872" y1="-11.538" x2="-17.272" y2="-11.538" width="0.15" layer="1"/>
-<wire x1="-16.8074" y1="-11.4734" x2="-16.872" y2="-11.538" width="0.15" layer="1"/>
-<wire x1="-16.733075" y1="-11.4734" x2="-16.8074" y2="-11.4734" width="0.15" layer="1"/>
+<wire x1="-16.872" y1="-11.538" x2="-16.8074" y2="-11.4734" width="0.15" layer="1"/>
+<wire x1="-16.8074" y1="-11.4734" x2="-16.733075" y2="-11.4734" width="0.15" layer="1"/>
 <wire x1="-14.657675" y1="-9.398" x2="-13.081" y2="-9.398" width="0.15" layer="1"/>
-<wire x1="-14.657675" y1="-9.398" x2="-16.733075" y2="-11.4734" width="0.15" layer="1"/>
+<wire x1="-16.733075" y1="-11.4734" x2="-14.657675" y2="-9.398" width="0.15" layer="1"/>
 <via x="-13.081" y="-9.398" extent="1-16" drill="0.15" diameter="0.3" alwaysstop="yes">
 </via>
 <wire x1="-13.081" y1="-9.398" x2="-12.319" y2="-10.16" width="0.15" layer="16"/>
@@ -3518,10 +3504,10 @@ design rules under a new name.</description>
 <wire x1="10.922" y1="-7.112" x2="11.7532" y2="-7.112" width="0.15" layer="16"/>
 <via x="11.7532" y="-7.112" extent="1-16" drill="0.15" diameter="0.3" alwaysstop="yes">
 </via>
-<wire x1="11.7532" y1="-7.112" x2="12.02240625" y2="-7.112" width="0.15" layer="1"/>
-<wire x1="12.02240625" y1="-7.112" x2="12.27380625" y2="-6.8606" width="0.15" layer="1"/>
-<wire x1="15.9994" y1="-6.8606" x2="16.256" y2="-6.604" width="0.15" layer="1"/>
-<wire x1="12.27380625" y1="-6.8606" x2="15.9994" y2="-6.8606" width="0.15" layer="1"/>
+<wire x1="12.02240625" y1="-7.112" x2="11.7532" y2="-7.112" width="0.15" layer="1"/>
+<wire x1="12.27380625" y1="-6.8606" x2="12.02240625" y2="-7.112" width="0.15" layer="1"/>
+<wire x1="16.256" y1="-6.604" x2="15.9994" y2="-6.8606" width="0.15" layer="1"/>
+<wire x1="15.9994" y1="-6.8606" x2="12.27380625" y2="-6.8606" width="0.15" layer="1"/>
 <via x="16.256" y="-6.604" extent="1-16" drill="0.15" diameter="0.3" alwaysstop="yes">
 </via>
 <wire x1="16.256" y1="-6.604" x2="16.256" y2="-1.778" width="0.15" layer="16"/>
@@ -4056,10 +4042,10 @@ design rules under a new name.</description>
 <wire x1="-9.652" y1="-4.58" x2="-9.009" y2="-3.937" width="0.15" layer="1"/>
 <wire x1="-9.652" y1="-4.58" x2="-9.652" y2="-5.08" width="0.15" layer="1"/>
 <wire x1="-9.652" y1="-5.08" x2="-9.695" y2="-5.123" width="0.15" layer="1"/>
-<wire x1="-12.318" y1="-5.123" x2="-9.695" y2="-5.123" width="0.15" layer="1"/>
+<wire x1="-9.695" y1="-5.123" x2="-12.318" y2="-5.123" width="0.15" layer="1"/>
 <wire x1="-14.097" y1="-0.406725" x2="-14.097" y2="-3.890325" width="0.15" layer="1"/>
 <wire x1="-14.097" y1="-3.890325" x2="-12.864325" y2="-5.123" width="0.15" layer="1"/>
-<wire x1="-12.864325" y1="-5.123" x2="-12.318" y2="-5.123" width="0.15" layer="1"/>
+<wire x1="-12.318" y1="-5.123" x2="-12.864325" y2="-5.123" width="0.15" layer="1"/>
 <wire x1="-14.2406" y1="6.91119375" x2="-14.2406" y2="3.184125" width="0.15" layer="1"/>
 <wire x1="-14.2406" y1="3.184125" x2="-15.6174" y2="1.807325" width="0.15" layer="1"/>
 <wire x1="-15.6174" y1="1.807325" x2="-15.6174" y2="1.113675" width="0.15" layer="1"/>
@@ -4434,8 +4420,8 @@ design rules under a new name.</description>
 <wire x1="0.098" y1="12.58899375" x2="0.23120625" y2="12.7222" width="0.15" layer="1"/>
 <wire x1="0.8528" y1="12.0424" x2="0.9754" y2="11.9198" width="0.15" layer="1"/>
 <wire x1="0.8528" y1="12.58899375" x2="0.8528" y2="12.0424" width="0.15" layer="1"/>
-<wire x1="0.098" y1="12.58899375" x2="0.098" y2="12.0424" width="0.15" layer="1"/>
-<wire x1="0.098" y1="12.0424" x2="-0.0246" y2="11.9198" width="0.15" layer="1"/>
+<wire x1="0.098" y1="12.0424" x2="0.098" y2="12.58899375" width="0.15" layer="1"/>
+<wire x1="-0.0246" y1="11.9198" x2="0.098" y2="12.0424" width="0.15" layer="1"/>
 <wire x1="-0.0246" y1="11.9198" x2="-0.1472" y2="12.0424" width="0.15" layer="1"/>
 <wire x1="-0.1472" y1="12.0424" x2="-0.1472" y2="12.58899375" width="0.15" layer="1"/>
 <wire x1="-2.9234875" y1="13.6198" x2="-2.9542875" y2="13.589" width="0.15" layer="1"/>
@@ -4464,7 +4450,7 @@ design rules under a new name.</description>
 </via>
 <wire x1="0.127" y1="11.43" x2="-0.16250625" y2="11.14049375" width="0.15" layer="16"/>
 <wire x1="-0.16250625" y1="11.14049375" x2="-0.3979625" y2="11.14049375" width="0.15" layer="16"/>
-<wire x1="-0.3979625" y1="11.14049375" x2="-0.5246" y2="11.26713125" width="0.15" layer="1"/>
+<wire x1="-0.5246" y1="11.26713125" x2="-0.3979625" y2="11.14049375" width="0.15" layer="1"/>
 <wire x1="-0.5246" y1="11.26713125" x2="-0.5246" y2="11.9198" width="0.15" layer="1"/>
 </signal>
 <signal name="N$38">
@@ -4481,10 +4467,10 @@ design rules under a new name.</description>
 <wire x1="1.50519375" y1="-3.1136" x2="0.4466" y2="-3.1136" width="0.15" layer="1"/>
 <via x="-1.651" y="0.889" extent="1-16" drill="0.15" diameter="0.3" alwaysstop="yes">
 </via>
-<wire x1="-1.9854" y1="7.3194" x2="-1.9854" y2="6.81880625" width="0.15" layer="1"/>
-<wire x1="-3.175" y1="8.509" x2="-1.9854" y2="7.3194" width="0.15" layer="1"/>
-<wire x1="-1.651" y1="6.48440625" x2="-1.651" y2="0.889" width="0.15" layer="1"/>
-<wire x1="-1.9854" y1="6.81880625" x2="-1.651" y2="6.48440625" width="0.15" layer="1"/>
+<wire x1="-1.9854" y1="6.81880625" x2="-1.9854" y2="7.3194" width="0.15" layer="1"/>
+<wire x1="-1.9854" y1="7.3194" x2="-3.175" y2="8.509" width="0.15" layer="1"/>
+<wire x1="-1.651" y1="0.889" x2="-1.651" y2="6.48440625" width="0.15" layer="1"/>
+<wire x1="-1.651" y1="6.48440625" x2="-1.9854" y2="6.81880625" width="0.15" layer="1"/>
 <via x="-3.175" y="8.509" extent="1-16" drill="0.15" diameter="0.3" alwaysstop="yes">
 </via>
 <wire x1="-3.175" y1="8.509" x2="-2.032" y2="9.652" width="0.15" layer="16"/>
@@ -4674,9 +4660,9 @@ design rules under a new name.</description>
 <wire x1="11.9344" y1="-4.6799625" x2="11.6982" y2="-4.4437625" width="0.15" layer="1"/>
 <wire x1="11.6982" y1="-4.4437625" x2="11.6982" y2="-3.8377" width="0.15" layer="1"/>
 <wire x1="12.319" y1="-11.753" x2="12.1306" y2="-11.5646" width="0.15" layer="1"/>
-<wire x1="11.3758" y1="-7.268325" x2="11.3758" y2="-6.955675" width="0.15" layer="1"/>
-<wire x1="12.1306" y1="-11.5646" x2="12.1306" y2="-8.023125" width="0.15" layer="1"/>
-<wire x1="12.1306" y1="-8.023125" x2="11.3758" y2="-7.268325" width="0.15" layer="1"/>
+<wire x1="11.3758" y1="-7.395325" x2="11.3758" y2="-6.955675" width="0.15" layer="1"/>
+<wire x1="12.1306" y1="-11.5646" x2="12.1306" y2="-8.150125" width="0.15" layer="1"/>
+<wire x1="12.1306" y1="-8.150125" x2="11.3758" y2="-7.395325" width="0.15" layer="1"/>
 <wire x1="11.3758" y1="-6.955675" x2="11.9344" y2="-6.397075" width="0.15" layer="1"/>
 <wire x1="11.9344" y1="-6.397075" x2="11.9344" y2="-4.6799625" width="0.15" layer="1"/>
 </signal>
