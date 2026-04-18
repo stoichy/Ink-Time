@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="4" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="4" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -3864,7 +3864,9 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <part name="GND5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="SUPPLY1_GND" device="">
 <attribute name="GND" value=""/>
 </part>
-<part name="R9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="10k"/>
+<part name="R9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="10k">
+<attribute name="RESISTANCE" value="10k"/>
+</part>
 <part name="IC9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="RT6160AWSC_RT6160AWSC" device="" value="RT6160AWSC"/>
 <part name="GND6" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="SUPPLY1_GND" device="">
 <attribute name="GND" value=""/>
@@ -3872,12 +3874,20 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <part name="GND7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="SUPPLY1_GND" device="">
 <attribute name="GND" value=""/>
 </part>
-<part name="R4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="0"/>
-<part name="R2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="0"/>
+<part name="R4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="0">
+<attribute name="RESISTANCE" value="0"/>
+</part>
+<part name="R2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="0">
+<attribute name="RESISTANCE" value="0"/>
+</part>
 <part name="TP_3V3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="TP_VREG" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
-<part name="R18" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="3K3"/>
-<part name="R17" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="3k3"/>
+<part name="R18" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="3K3">
+<attribute name="RESISTANCE" value="3k3"/>
+</part>
+<part name="R17" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="3k3">
+<attribute name="RESISTANCE" value="3k3"/>
+</part>
 <part name="TP_SCL" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="TP_SDA" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="GND8" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="SUPPLY1_GND" device="">
@@ -3893,7 +3903,9 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <part name="GND11" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="SUPPLY1_GND" device="">
 <attribute name="GND" value=""/>
 </part>
-<part name="R3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="0"/>
+<part name="R3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="0">
+<attribute name="RESISTANCE" value="0"/>
+</part>
 <part name="GND12" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="SUPPLY1_GND" device="">
 <attribute name="GND" value=""/>
 </part>
@@ -3975,7 +3987,9 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <part name="SJ1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ESP32_C6_LIBRARY_7_JUMPER_SJ" device=""/>
 <part name="GND34" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="HECTOR_WATCH_2_GND" device="" value="GND"/>
 <part name="GND35" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="HECTOR_WATCH_2_GND" device="" value="GND"/>
-<part name="R_PWR_EPD" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="ERA-1AEB3401C_CPF0201D7K68C1"/>
+<part name="R_PWR_EPD" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="10k">
+<attribute name="RESISTANCE" value="10K"/>
+</part>
 <part name="Q1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="ESP32_C6_LIBRARY_4_ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH" device="-DMG2305UX-7" value="20V/4.2A/52mΩ/1.4W"/>
 <part name="J1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="503480-2400_503480-2400" device="" value="503480-2400"/>
 <part name="GND36" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="HECTOR_WATCH_2_GND" device="" value="GND"/>
@@ -4108,7 +4122,8 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <attribute name="GND" x="157.48" y="322.58" size="1.778" layer="96" display="name"/>
 </instance>
 <instance part="R9" gate="G$1" x="149.86" y="332.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="146.05" y="341.63" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="NAME" x="146.304" y="340.614" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="RESISTANCE" x="150.622" y="339.344" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="IC9" gate="G$1" x="91.44" y="200.66" smashed="yes">
 <attribute name="NAME" x="100.33" y="208.28" size="1.778" layer="95" align="center-left"/>
@@ -4122,9 +4137,11 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 </instance>
 <instance part="R4" gate="G$1" x="149.86" y="198.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="140.97" y="201.93" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="RESISTANCE" x="141.224" y="198.882" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R2" gate="G$1" x="149.86" y="190.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="140.97" y="194.31" size="1.778" layer="95" rot="MR0" align="center-left"/>
+<attribute name="RESISTANCE" x="141.224" y="189.484" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="TP_3V3" gate="G$1" x="71.12" y="165.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.85" y="163.83" size="1.778" layer="95" rot="R90"/>
@@ -4135,10 +4152,12 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <attribute name="TP_SIGNAL_NAME" x="72.39" y="158.75" size="1.778" layer="97" rot="R90"/>
 </instance>
 <instance part="R18" gate="G$1" x="83.82" y="142.24" smashed="yes" rot="MR180">
-<attribute name="NAME" x="92.71" y="138.43" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="NAME" x="90.424" y="139.446" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="RESISTANCE" x="90.424" y="143.256" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="R17" gate="G$1" x="83.82" y="147.32" smashed="yes" rot="MR180">
-<attribute name="NAME" x="92.71" y="143.51" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="NAME" x="90.17" y="150.368" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="RESISTANCE" x="90.424" y="148.336" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="TP_SCL" gate="G$1" x="109.22" y="152.4" smashed="yes">
 <attribute name="NAME" x="107.95" y="153.67" size="1.778" layer="95"/>
@@ -4165,7 +4184,8 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <attribute name="GND" x="66.04" y="38.1" size="1.778" layer="96" rot="MR0" display="name"/>
 </instance>
 <instance part="R3" gate="G$1" x="129.54" y="50.8" smashed="yes" rot="MR180">
-<attribute name="NAME" x="138.43" y="46.99" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="NAME" x="137.16" y="48.006" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="RESISTANCE" x="137.922" y="51.816" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="GND12" gate="1" x="149.86" y="43.18" smashed="yes" rot="MR0">
 <attribute name="GND" x="152.4" y="40.64" size="1.778" layer="96" rot="MR0" display="name"/>
@@ -4290,12 +4310,12 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <attribute name="VALUE" x="165.10848125" y="342.9" size="1.78096875" layer="96" rot="R90"/>
 </instance>
 <instance part="C24" gate="C$1" x="63.5" y="210.82" smashed="yes">
-<attribute name="NAME" x="59.944" y="206.121" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="59.944" y="211.201" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="60.96" y="207.391" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="67.818" y="206.375" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C23" gate="G$1" x="78.74" y="210.82" smashed="yes" rot="MR270">
 <attribute name="NAME" x="74.92906875" y="210.82" size="1.77843125" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="83.82848125" y="210.82" size="1.78096875" layer="96" rot="MR270"/>
+<attribute name="VALUE" x="83.82848125" y="213.36" size="1.78096875" layer="96" rot="MR270"/>
 </instance>
 <instance part="C25" gate="C$1" x="134.62" y="180.34" smashed="yes">
 <attribute name="NAME" x="136.144" y="180.721" size="1.778" layer="95"/>
@@ -4338,56 +4358,56 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <attribute name="VALUE" x="346.964" y="203.581" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="C$1" x="416.56" y="254" smashed="yes">
-<attribute name="NAME" x="418.084" y="254.381" size="1.778" layer="95"/>
-<attribute name="VALUE" x="418.084" y="249.301" size="1.778" layer="96"/>
+<attribute name="NAME" x="414.782" y="254.635" size="1.778" layer="95"/>
+<attribute name="VALUE" x="414.274" y="249.301" size="1.778" layer="96"/>
 </instance>
 <instance part="C9" gate="C$1" x="426.72" y="281.94" smashed="yes">
-<attribute name="NAME" x="428.244" y="282.321" size="1.778" layer="95"/>
-<attribute name="VALUE" x="428.244" y="277.241" size="1.778" layer="96"/>
+<attribute name="NAME" x="424.942" y="281.813" size="1.778" layer="95"/>
+<attribute name="VALUE" x="423.164" y="276.733" size="1.778" layer="96"/>
 </instance>
 <instance part="C3" gate="C$1" x="449.58" y="287.02" smashed="yes">
-<attribute name="NAME" x="451.104" y="287.401" size="1.778" layer="95"/>
-<attribute name="VALUE" x="451.104" y="282.321" size="1.778" layer="96"/>
+<attribute name="NAME" x="448.056" y="287.909" size="1.778" layer="95"/>
+<attribute name="VALUE" x="448.056" y="282.067" size="1.778" layer="96"/>
 </instance>
 <instance part="C4" gate="C$1" x="480.06" y="287.02" smashed="yes">
-<attribute name="NAME" x="481.584" y="287.401" size="1.778" layer="95"/>
-<attribute name="VALUE" x="481.584" y="282.321" size="1.778" layer="96"/>
+<attribute name="NAME" x="478.282" y="288.163" size="1.778" layer="95"/>
+<attribute name="VALUE" x="478.282" y="282.829" size="1.778" layer="96"/>
 </instance>
 <instance part="C22" gate="C$1" x="495.3" y="287.02" smashed="yes">
-<attribute name="NAME" x="496.824" y="287.401" size="1.778" layer="95"/>
-<attribute name="VALUE" x="496.824" y="282.321" size="1.778" layer="96"/>
+<attribute name="NAME" x="493.014" y="287.655" size="1.778" layer="95"/>
+<attribute name="VALUE" x="492.76" y="282.829" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="C$1" x="474.98" y="302.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="474.599" y="303.784" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="479.679" y="303.784" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="477.266" y="306.959" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="478.028" y="299.847" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C2" gate="C$1" x="474.98" y="322.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="474.599" y="324.104" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="479.679" y="324.104" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C11" gate="C$1" x="411.48" y="320.04" smashed="yes">
-<attribute name="NAME" x="413.004" y="320.421" size="1.778" layer="95"/>
-<attribute name="VALUE" x="413.004" y="315.341" size="1.778" layer="96"/>
+<attribute name="NAME" x="409.702" y="321.183" size="1.778" layer="95"/>
+<attribute name="VALUE" x="408.686" y="315.849" size="1.778" layer="96"/>
 </instance>
 <instance part="C10" gate="C$1" x="426.72" y="320.04" smashed="yes">
-<attribute name="NAME" x="428.244" y="320.421" size="1.778" layer="95"/>
-<attribute name="VALUE" x="428.244" y="315.341" size="1.778" layer="96"/>
+<attribute name="NAME" x="424.688" y="321.183" size="1.778" layer="95"/>
+<attribute name="VALUE" x="424.434" y="315.341" size="1.778" layer="96"/>
 </instance>
 <instance part="C12" gate="C$1" x="386.08" y="330.2" smashed="yes">
-<attribute name="NAME" x="387.604" y="330.581" size="1.778" layer="95"/>
-<attribute name="VALUE" x="387.604" y="325.501" size="1.778" layer="96"/>
+<attribute name="NAME" x="384.302" y="330.835" size="1.778" layer="95"/>
+<attribute name="VALUE" x="382.27" y="324.739" size="1.778" layer="96"/>
 </instance>
 <instance part="C13" gate="C$1" x="383.54" y="353.06" smashed="yes">
 <attribute name="NAME" x="385.064" y="353.441" size="1.778" layer="95"/>
 <attribute name="VALUE" x="385.064" y="348.361" size="1.778" layer="96"/>
 </instance>
 <instance part="C16" gate="C$1" x="355.6" y="353.06" smashed="yes">
-<attribute name="NAME" x="357.124" y="353.441" size="1.778" layer="95"/>
-<attribute name="VALUE" x="357.124" y="348.361" size="1.778" layer="96"/>
+<attribute name="NAME" x="354.076" y="353.949" size="1.778" layer="95"/>
+<attribute name="VALUE" x="353.822" y="348.869" size="1.778" layer="96"/>
 </instance>
 <instance part="C15" gate="C$1" x="347.98" y="353.06" smashed="yes">
-<attribute name="NAME" x="349.504" y="353.441" size="1.778" layer="95"/>
-<attribute name="VALUE" x="349.504" y="348.361" size="1.778" layer="96"/>
+<attribute name="NAME" x="348.488" y="353.187" size="1.778" layer="95"/>
+<attribute name="VALUE" x="345.694" y="348.615" size="1.778" layer="96"/>
 </instance>
 <instance part="C14" gate="C$1" x="309.88" y="332.74" smashed="yes">
 <attribute name="NAME" x="311.404" y="333.121" size="1.778" layer="95"/>
@@ -4402,12 +4422,12 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <attribute name="VALUE" x="321.31" y="358.14" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="L1" gate="L$1" x="462.28" y="292.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="467.36" y="290.83" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="463.55" y="290.322" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="467.36" y="295.91" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="L7" gate="G$1" x="106.68" y="220.98" smashed="yes">
-<attribute name="NAME" x="123.19" y="227.33" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="123.19" y="224.79" size="1.778" layer="96" align="center-left"/>
+<attribute name="NAME" x="109.982" y="226.568" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="108.712" y="224.028" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -5526,7 +5546,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 </instance>
 <instance part="D2" gate="G$1" x="88.9" y="347.98" smashed="yes">
 <attribute name="NAME" x="90.17" y="350.52" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="92.71" y="345.44" size="1.778" layer="96" align="center-left"/>
+<attribute name="VALUE" x="92.964" y="344.678" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="D5" gate="G$1" x="104.14" y="330.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="100.33" y="325.12" size="1.778" layer="95" rot="R180" align="center-left"/>
@@ -5541,18 +5561,18 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 </instance>
 <instance part="R1_EP_DR" gate="G$1" x="142.24" y="327.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="138.43" y="331.47" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="143.51" y="334.01" size="1.778" layer="96" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="142.24" y="334.01" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="GND33" gate="1" x="129.54" y="330.2" smashed="yes">
 <attribute name="VALUE" x="127" y="327.66" size="1.778" layer="96"/>
 </instance>
 <instance part="R2_EP_DR" gate="G$1" x="129.54" y="340.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="125.73" y="344.17" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="130.81" y="346.71" size="1.778" layer="96" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="129.54" y="346.964" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="R_TYPE_SEL" gate="G$1" x="149.86" y="299.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="146.05" y="303.53" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="151.13" y="306.07" size="1.778" layer="96" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="149.606" y="306.832" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="SJ1" gate="1" x="134.62" y="312.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="132.08" y="309.88" size="1.778" layer="95" rot="R90"/>
@@ -5566,7 +5586,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 </instance>
 <instance part="R_PWR_EPD" gate="G$1" x="193.04" y="350.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="189.23" y="354.33" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="194.31" y="356.87" size="1.778" layer="96" rot="R90" align="center-left"/>
+<attribute name="RESISTANCE" x="194.056" y="357.378" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="Q1" gate="G$1" x="200.66" y="347.98" smashed="yes">
 <attribute name="NAME" x="205.74" y="347.98" size="1.778" layer="95" font="vector"/>
@@ -5621,7 +5641,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 </instance>
 <instance part="R2_USB" gate="G$1" x="355.6" y="91.44" smashed="yes">
 <attribute name="NAME" x="359.41" y="95.25" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="361.95" y="90.17" size="1.778" layer="96" align="center-left"/>
+<attribute name="VALUE" x="361.95" y="91.44" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="GND45" gate="1" x="355.6" y="86.36" smashed="yes" rot="R90">
 <attribute name="VALUE" x="358.14" y="83.82" size="1.778" layer="96" rot="R90"/>
@@ -5631,7 +5651,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 </instance>
 <instance part="R1_USB" gate="G$1" x="287.02" y="99.06" smashed="yes">
 <attribute name="NAME" x="290.83" y="102.87" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="293.37" y="97.79" size="1.778" layer="96" align="center-left"/>
+<attribute name="VALUE" x="294.132" y="98.806" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="GND47" gate="1" x="279.4" y="99.06" smashed="yes" rot="R270">
 <attribute name="VALUE" x="276.86" y="101.6" size="1.778" layer="96" rot="R270"/>
@@ -5651,15 +5671,15 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 </instance>
 <instance part="R5" gate="G$1" x="444.5" y="236.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="440.69" y="240.03" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="445.77" y="242.57" size="1.778" layer="96" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="444.5" y="243.078" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="R8" gate="G$1" x="472.44" y="254" smashed="yes" rot="R270">
 <attribute name="NAME" x="476.25" y="250.19" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="471.17" y="247.65" size="1.778" layer="96" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="472.44" y="246.888" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 <instance part="R7" gate="G$1" x="500.38" y="236.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="496.57" y="240.03" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="501.65" y="242.57" size="1.778" layer="96" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="500.38" y="243.078" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="SW_DN" gate="A" x="495.3" y="203.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="493.2299" y="202.9252" size="3.48" layer="95" ratio="10" rot="R90"/>
@@ -5714,16 +5734,16 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 </instance>
 <instance part="C1-EP-DR" gate="C$1" x="45.72" y="335.28" smashed="yes">
 <attribute name="NAME" x="47.244" y="335.661" size="1.778" layer="95"/>
-<attribute name="VALUE" x="47.244" y="330.581" size="1.778" layer="96"/>
+<attribute name="VALUE" x="47.244" y="330.835" size="1.778" layer="96"/>
 </instance>
 <instance part="L5" gate="A" x="50.8" y="342.9" smashed="yes">
 <attribute name="NAME" x="54.9702" y="346.2401" size="3.48" layer="95" ratio="10"/>
 <attribute name="SHOW_VALUE" x="55.88" y="340.36" size="1.27" layer="96"/>
-<attribute name="VALUE" x="48.8219" y="338.6201" size="3.48" layer="96" ratio="10"/>
+<attribute name="VALUE" x="52.3779" y="339.3821" size="3.48" layer="96" ratio="10"/>
 </instance>
 <instance part="C2-EP-DR" gate="C$1" x="86.36" y="337.82" smashed="yes">
 <attribute name="NAME" x="87.884" y="338.201" size="1.778" layer="95"/>
-<attribute name="VALUE" x="87.884" y="333.121" size="1.778" layer="96"/>
+<attribute name="VALUE" x="88.9" y="335.407" size="1.778" layer="96"/>
 </instance>
 <instance part="EPD_C2" gate="C$1" x="83.82" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="78.359" y="131.064" size="1.778" layer="95"/>
@@ -5735,59 +5755,59 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 </instance>
 <instance part="EPD_C5" gate="C$1" x="78.74" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="75.819" y="103.124" size="1.778" layer="95"/>
-<attribute name="VALUE" x="85.979" y="95.504" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="85.979" y="97.79" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="EPD_C6" gate="C$1" x="60.96" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.039" y="93.98" size="1.778" layer="95"/>
-<attribute name="VALUE" x="73.279" y="91.186" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="67.437" y="90.932" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="EPD_C7" gate="C$1" x="73.66" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="70.739" y="91.694" size="1.778" layer="95"/>
-<attribute name="VALUE" x="85.979" y="88.646" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="79.629" y="88.392" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="EPD_C8" gate="C$1" x="101.6" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="98.679" y="89.154" size="1.778" layer="95"/>
-<attribute name="VALUE" x="113.919" y="88.646" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="107.315" y="86.36" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="EPD_C9" gate="C$1" x="83.82" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="80.899" y="86.614" size="1.778" layer="95"/>
-<attribute name="VALUE" x="96.139" y="83.566" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="90.043" y="83.058" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="EPD_C10" gate="C$1" x="63.5" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="60.579" y="84.074" size="1.778" layer="95"/>
-<attribute name="VALUE" x="75.819" y="83.566" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="68.961" y="80.01" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="EPD_C11" gate="C$1" x="76.2" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="73.279" y="81.534" size="1.778" layer="95"/>
-<attribute name="VALUE" x="88.519" y="81.026" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="73.025" y="79.502" size="1.778" layer="95"/>
+<attribute name="VALUE" x="82.169" y="77.216" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="EPD_C12" gate="C$1" x="93.98" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="91.059" y="78.994" size="1.778" layer="95"/>
-<attribute name="VALUE" x="106.299" y="75.946" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="99.949" y="74.93" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C27" gate="G$1" x="287.02" y="241.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="283.20906875" y="241.3" size="1.77843125" layer="95" rot="R90"/>
 <attribute name="VALUE" x="292.10848125" y="241.3" size="1.78096875" layer="96" rot="R90"/>
 </instance>
 <instance part="C42" gate="G$1" x="436.88" y="76.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="440.69093125" y="76.2" size="1.77843125" layer="95" rot="R270"/>
-<attribute name="VALUE" x="431.79151875" y="76.2" size="1.78096875" layer="96" rot="R270"/>
+<attribute name="NAME" x="434.34" y="78.48693125" size="1.77843125" layer="95"/>
+<attribute name="VALUE" x="433.578" y="69.84151875" size="1.78096875" layer="96"/>
 </instance>
 <instance part="C43" gate="C$1" x="449.58" y="76.2" smashed="yes">
-<attribute name="NAME" x="451.104" y="76.581" size="1.778" layer="95"/>
-<attribute name="VALUE" x="451.104" y="71.501" size="1.778" layer="96"/>
+<attribute name="NAME" x="447.548" y="77.089" size="1.778" layer="95"/>
+<attribute name="VALUE" x="446.532" y="71.755" size="1.778" layer="96"/>
 </instance>
 <instance part="C30" gate="G$1" x="444.5" y="210.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="440.68906875" y="210.82" size="1.77843125" layer="95" rot="R90"/>
-<attribute name="VALUE" x="449.58848125" y="210.82" size="1.78096875" layer="96" rot="R90"/>
+<attribute name="NAME" x="446.786" y="217.42306875" size="1.77843125" layer="95" rot="R180"/>
+<attribute name="VALUE" x="446.786" y="208.28848125" size="1.78096875" layer="96" rot="R180"/>
 </instance>
 <instance part="C31" gate="G$1" x="472.44" y="210.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="468.62906875" y="210.82" size="1.77843125" layer="95" rot="R90"/>
-<attribute name="VALUE" x="477.52848125" y="210.82" size="1.78096875" layer="96" rot="R90"/>
+<attribute name="NAME" x="474.472" y="216.91506875" size="1.77843125" layer="95" rot="R180"/>
+<attribute name="VALUE" x="474.726" y="208.54248125" size="1.78096875" layer="96" rot="R180"/>
 </instance>
 <instance part="C29" gate="G$1" x="500.38" y="210.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="496.56906875" y="210.82" size="1.77843125" layer="95" rot="R90"/>
-<attribute name="VALUE" x="505.46848125" y="210.82" size="1.78096875" layer="96" rot="R90"/>
+<attribute name="NAME" x="502.158" y="217.93106875" size="1.77843125" layer="95" rot="R180"/>
+<attribute name="VALUE" x="502.412" y="208.03448125" size="1.78096875" layer="96" rot="R180"/>
 </instance>
 <instance part="C32" gate="G$1" x="436.88" y="340.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="433.06906875" y="335.28" size="1.77843125" layer="95" rot="R90"/>
@@ -5882,8 +5902,9 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="17"/>
-<wire x1="106.68" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="93.98" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="93.98" x2="106.68" y2="94.234" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="94.234" x2="48.26" y2="94.234" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="94.234" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND38" gate="1" pin="GND"/>
 </segment>
 <segment>
