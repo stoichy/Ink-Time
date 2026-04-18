@@ -3848,7 +3848,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 </class>
 </classes>
 <parts>
-<part name="IC1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="BQ25180YBGR_BQ25180YBGR" device=""/>
+<part name="IC1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="BQ25180YBGR_BQ25180YBGR" device="" value="BQ25180YBGR"/>
 <part name="GND1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="SUPPLY1_GND" device="">
 <attribute name="GND" value=""/>
 </part>
@@ -3886,7 +3886,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <part name="GND9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="SUPPLY1_GND" device="">
 <attribute name="GND" value=""/>
 </part>
-<part name="IC3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="BMA423_BMA423" device=""/>
+<part name="IC3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="BMA423_BMA423" device="" value="BMA423"/>
 <part name="GND10" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="SUPPLY1_GND" device="">
 <attribute name="GND" value=""/>
 </part>
@@ -3935,7 +3935,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <part name="GND22" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="SUPPLY1_GND" device="">
 <attribute name="GND" value=""/>
 </part>
-<part name="ANT1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="2450AT18B100E_2450AT18B100E" device="" value="2450AT18B100E_2450AT18B100E"/>
+<part name="ANT1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="2450AT18B100E_2450AT18B100E" device="" value="2450AT18B100E"/>
 <part name="GND23" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="SUPPLY1_GND" device="">
 <attribute name="GND" value=""/>
 </part>
@@ -3958,7 +3958,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <part name="GND29" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="SUPPLY1_GND" device="">
 <attribute name="GND" value=""/>
 </part>
-<part name="J2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="TC2030-IDC_TC2030-IDC" device="" value="TC2030-IDC_TC2030-IDC"/>
+<part name="J2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="TC2030-IDC_TC2030-IDC" device="" value="TC2030-IDC"/>
 <part name="GND30" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.tUwrbmbJTRevvyDZ4HcNKA" deviceset="SUPPLY1_GND" device="">
 <attribute name="GND" value=""/>
 </part>
