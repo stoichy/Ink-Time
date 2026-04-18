@@ -5857,13 +5857,12 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <pinref part="GND35" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="MP1"/>
-<wire x1="137.16" y1="137.16" x2="137.16" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="132.08" x2="137.16" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="134.62" x2="132.08" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="132.08" x2="132.08" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="MP2"/>
 <pinref part="GND36" gate="1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="MP1"/>
+<wire x1="132.08" y1="134.62" x2="137.16" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="134.62" x2="137.16" y2="132.08" width="0.1524" layer="91"/>
 <junction x="137.16" y="132.08"/>
 </segment>
 <segment>
