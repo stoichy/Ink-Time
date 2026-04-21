@@ -78,9 +78,3 @@ The core of the device integrates high-speed SPI for the display and I2C for per
 <p align="center">
   <img src="Images/3D_PCB_ISOMETRIC.png" alt="InkTime PCB Layout" width="600">
 </p>
-
-### Important Notes (EVT Status)
-- **Routing:** ~75% complete. Final trace optimization in progress.
-- **Antenna:** RF placement/routing is currently placeholder. A copper-clear keep-out zone and edge orientation will be implemented in the **DVT phase**.
-- **Mechanical:** Aligned with `WearAwareNewCase` mechanical constraints.
-
