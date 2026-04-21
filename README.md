@@ -3,7 +3,7 @@
 InkTime is a low-cost, open-source smartwatch designed for the **EVT (Engineering Validation Test)** phase. This project involves the full hardware design cycle, from schematic capture and PCB layout in Autodesk Fusion 360 to mechanical integration and manufacturing file generation.
 
 <p align="center">
-  <img src="Images/InkTime.png" alt="InkTime Open Source Smartwatch" width="600">
+  <img src="Images/BODY.png" alt="InkTime Open Source Smartwatch" width="600">
 </p>
 
 ## Project Overview
