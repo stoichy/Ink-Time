@@ -76,7 +76,7 @@ The core of the device integrates high-speed SPI for the display and I2C for per
 - **Decoupling:** 100nF capacitors (0201) placed close to MCU VCC pins.
 
 <p align="center">
-  <img src="Images/PCB.png" alt="InkTime PCB Layout" width="600">
+  <img src="Images/3D_PCB_ISOMETRIC.png" alt="InkTime PCB Layout" width="600">
 </p>
 
 ### Important Notes (EVT Status)
